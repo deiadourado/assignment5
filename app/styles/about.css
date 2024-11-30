@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Fleur+De+Leah&family=Gwendolyn:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #fdf7f2;
+    color: #333;
+  }
+  
+  .about-title {
+    font-family: "Gwendolyn", cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff7878;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #eec5c5fd;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-image {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 4px solid #ff6b6b;
+  }
+  
+  .about-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 1rem;
+  }

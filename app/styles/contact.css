@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Fleur+De+Leah&family=Gwendolyn:wght@400;700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.about-container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-color: #f8c1c1;
+}
+
+.about-title {
+  text-align: center;
+  font-family: "Gwendolyn", cursive;
+  color: #378b29;
+  text-align: center;
+  font-size: 76px;
+  margin-bottom: 10px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-image {
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 18px;
+  color: #378b29; 
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  background-color: #378b29;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #173305;
+}
